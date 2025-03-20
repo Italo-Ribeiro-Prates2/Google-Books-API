@@ -11,9 +11,7 @@ public class Main {
         System.out.println("Digite o nome do livro: ");
         var livro = leitura.nextLine();
 
-        String chave = "AIzaSyBRh030BVwJQtpPPmYzB2GO81GPgxq97RE";
-
-        var endereco = "https://www.googleapis.com/books/v1/volumes?q=" + livro + "&key=" + chave;
+        var endereco = "https://www.googleapis.com/books/v1/volumes?q=" + livro + "&key=AIzaSyBRh030BVwJQtpPPmYzB2GO81GPgxq97RE";
 
         HttpClient client = HttpClient.newHttpClient();
         HttpRequest request = HttpRequest.newBuilder()
