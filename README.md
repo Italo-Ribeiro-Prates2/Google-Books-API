@@ -2,6 +2,17 @@
 
 Este projeto é um exemplo simples de como usar a Google Books API para buscar informações sobre livros a partir de um nome fornecido pelo usuário.
 
+
+#Uso
+Quando solicitado, insira o nome do livro que deseja buscar.
+O aplicativo enviará uma solicitação para a API do Google Books e exibirá a resposta.
+
+#Explicação do Código
+O aplicativo usa HttpClient para enviar uma solicitação HTTP GET para a API do Google Books.
+O usuário é solicitado a inserir o nome do livro.
+O aplicativo constrói a URL da solicitação da API usando o nome do livro inserido e uma chave de API predefinida.
+A resposta da API é impressa no console.
+
 ## Pré-requisitos
 
 - Java JDK 23
