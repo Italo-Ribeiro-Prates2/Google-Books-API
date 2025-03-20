@@ -12,6 +12,10 @@ A resposta da API é impressa no console.
 Quando solicitado, insira o nome do livro que deseja buscar.
 O aplicativo enviará uma solicitação para a API do Google Books e exibirá a resposta.
 
+## Exemplo de Uso
+
+```sh
+Digite o nome do livro: Harry Potter
 
 ## Pré-requisitos
 
@@ -46,7 +50,3 @@ O aplicativo enviará uma solicitação para a API do Google Books e exibirá a 
 
 - `src/Main.java`: Contém o código principal que faz a requisição à Google Books API e exibe o resultado.
 
-## Exemplo de Uso
-
-```sh
-Digite o nome do livro: Harry Potter
